@@ -1,0 +1,27 @@
+.searchMemories{
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:0 10px;
+}
+
+.searchMemories__head{
+    font-size: larger;
+}
+
+.searchMemories__btn{
+    width: 120px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+    font-weight: bold;
+}
+
+.searchMemories__btn:hover{
+    background-color: darkgray;
+}
